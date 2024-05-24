@@ -28,3 +28,14 @@ test("factory", t => {
     t.true(humanInterface.isImplemented(human))
     t.false(dogInterface.isImplemented(human))    
 })
+
+
+test("generateAbstractClass", t => {
+    const Person = humanInterface.generateAbstractClass()
+    const person = new Person
+
+    t.true(humanInterface.isImplemented(person))
+    t.false(dogInterface.isImplemented(person))
+    
+    t.throws(() => person.getLeg())
+})
