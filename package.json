@@ -1,5 +1,5 @@
 {
-  "name": "interface",
+  "name": "@ellementul/interface",
   "version": "1.0.0",
   "description": "Check Inplementation interface by names of methods",
   "main": "index.js",
