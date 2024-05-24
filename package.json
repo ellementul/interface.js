@@ -1,0 +1,15 @@
+{
+  "name": "interface",
+  "version": "1.0.0",
+  "description": "Check Inplementation interface by names of methods",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^6.1.3"
+  }
+}
